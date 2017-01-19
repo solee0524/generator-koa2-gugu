@@ -1,0 +1,49 @@
+{
+  "name": "generator-koa2-gugu",
+  "version": "1.0.0",
+  "description": "A yo generator with koa2 from gugutech.",
+  "homepage": "https://github.com/solee0524/generator-koa2-gugu#readme",
+  "author": {
+    "name": "solee0524",
+    "email": "iblee0524@gmail.com",
+    "url": "http://solee.me"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "generator-koa2-gugu",
+    "koa",
+    "sudiyi",
+    "solee"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "deep-extend": "^0.4.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^1.0.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "coveralls": "^2.11.9",
+    "eslint": "^3.13.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nsp": "^2.4.0",
+    "gulp-plumber": "^1.1.0",
+    "yeoman-assert": "^2.0.0"
+  },
+  "repository": "solee0524/generator-koa2-gugu",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}

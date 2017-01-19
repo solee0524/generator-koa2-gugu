@@ -8,7 +8,7 @@ var _ = require('lodash');
 var extend = require('deep-extend');
 var mkdirp = require('mkdirp');
 
-module.exports = yeoman.generators.Base.extend({
+module.exports = yeoman.extend({
 
   initializing: function () {
     this.props = {};

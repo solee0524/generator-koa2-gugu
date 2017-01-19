@@ -35,6 +35,9 @@ A yo generator with koa2 from gugutech.
 
 ## Installation
 
+> We do not use babel to convert. So please make sure you use Node verdion > 7.3.0 to run generated project.
+
+
 First, install [Yeoman](http://yeoman.io) and **generator-koa2-gugu** using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
@@ -63,7 +66,6 @@ Scaffolds out a complete generator directory structure for you:
 │   ├── controllers
 │   │   └── index.js
 │   ├── db
-│   │   ├── mysql-redis-cache.js
 │   │   ├── mysql.js
 │   │   └── redis.js
 │   ├── index.js
@@ -84,7 +86,6 @@ Scaffolds out a complete generator directory structure for you:
 │   │   └── index.js
 │   └── utils
 │       ├── helper.js
-│       ├── qiniu.js
 │       └── resp-code-handler.js
 ├── package.json
 ├── pm2.json

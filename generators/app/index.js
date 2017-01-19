@@ -54,16 +54,17 @@ module.exports = yeoman.extend({
       }
     ];
 
-    this.prompt(prompts, function (props) {
+    this.prompt(prompts).then(function (props) {
       this.props = props;
       // To access props later use this.props.someOption;
+      this.log(props);
       done();
     }.bind(this));
-
   },
 
-  defaults: function () {
+  default: function () {
 
+    this.log('sssss');
     if (path.basename(this.destinationPath()) !== this.props.projectName) {
       this.log(
         'Your generator must be inside a folder named ' + this.props.projectName + '\n' +

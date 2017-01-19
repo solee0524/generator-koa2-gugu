@@ -29,7 +29,7 @@
     },
     "max_memory_restart": "512M",
     "env": {
-      "VERSION": "0.0.1",
+      "VERSION": "1.0.0",
       "NODE_ENV": "development",
       "MYSQL": "mysql://username:password@youripaddress:3306/database",
       "REDIS_HOST": "127.0.0.1",

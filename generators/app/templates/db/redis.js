@@ -11,4 +11,4 @@ const redis = require('promise-redis')(function (resolver) {
 var client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_HOST, {no_ready_check: true});
 client.auth(process.env.REDIS_PASS);
 
-exports.module = client;
+module.exports = client;
